@@ -1,0 +1,10 @@
+tool1 = input("enter tool1")
+tool2 = input("enter tool2")
+tool3 = input("enter tool3")
+tool4 = input("enter tool4")
+price1 = float(input('enter price1'))
+price2= float(input('enter price2'))
+price3 = float(input('enter price3'))
+price4 = float(input('enter price4'))
+inventory = {tool1 : price1, tool2: price2, tool3: price3, tool4: price4}
+print(inventory)
